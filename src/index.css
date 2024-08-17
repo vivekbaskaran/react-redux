@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cart {
+  max-width: 800px;
+  margin: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-summary p {
+  font-size: 18px;
+  font-weight: bold;
+}
+button{
+  margin-left: 5px;
+  margin-right: 5px;
+}
